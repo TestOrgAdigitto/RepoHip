@@ -3,7 +3,7 @@ pipeline {
         stages{
             stage('Test') { 
                 steps {
-                    sh 'echo "This contains HIPA details"'
+                    sh 'echo "This is develop brnach with HIPA details"'
                        }       
                 }
             }
